@@ -1,7 +1,7 @@
 # Vita 一个简洁的hexo简历主题
 此仓库是在原作的基础之上汉化而成，并修改了部分样式。
 
-[在线预览](http://resume.tanhuiri.cn)
+[在线预览](http://resume.arg.pub)
 
 ## 环境:
  * [NodeJS](https://nodejs.org/) >= 1.x

@@ -72,7 +72,7 @@
 
     <section class="section">
         <header>
-            <h2 class="section-title">教育经历</span></h2>
+            <h2 class="section-title">教育背景</span></h2>
         </header>
         <section id="education">
             {% for item in theme.resume.education %}
@@ -95,7 +95,7 @@
 
                 <div class="item">
                     <div class="location">
-                        <strong class="fa fa-map-marker"></strong> <span>{{item.location}}</span>
+                        <a href={{item.location_url}} title="在百度地图上查看" target="blank" style="color: grey;"><strong class="fa fa-map-marker"></strong> <span>{{item.location}}</span></a>
                     </div>
                 </div>
             </section>
@@ -190,7 +190,7 @@
     <section class="section">
         
         <header>
-            <h2 class="section-title">获奖情况</h2>
+            <h2 class="section-title">荣誉奖项</h2>
         </header>
         
         <section>

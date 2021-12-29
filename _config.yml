@@ -1,96 +1,83 @@
-title: Reassume
+title: Your Resume
 resume:
-  name: YOUR NAME
-  jobtitle: Your Job Title
-  location:
-    - key: address
-      value: Your Address
-    - key: postalCode
-      value: '0123654'
-    - key: city
-      value: Your City
-    - key: region
-      value: State/Region
-    - key: countryCode
-      value: US
+  name: 你的名字
+  jobtitle: 你的岗位
+
   contact:
-    - icon: fa-external-link
-      text: your-website.com
-    - icon: fa-envelope
-      text: youremail@example.com
-    - icon: fa-phone-square
-      text: your-phone-num
-  profiles:
-    - icon: fa-linkedin
-      text: your-linkedin
-      link: https://linkedin.com/
+    - icon: fa-rss
+      text: 个人主页
+      link: https://baidu.com/
     - icon: fa-github
-      text: your-github
+      text: Github
       link: https://github.com/
-  overview: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+    - icon: fa-envelope
+      text: 邮箱
+      link: mailto:yourmail@gmail.com
+    - icon: fa-phone-square
+      text: 110
+  profiles:
+    
+
+  overview: 关关雎鸠，在河之洲。窈窕淑女，君子好逑。参差荇菜，左右流之。窈窕淑女，寤寐求之。求之不得，寤寐思服。悠哉悠哉，辗转反侧。参差荇菜，左右采之。窈窕淑女，琴瑟友之。参差荇菜，左右芼之。窈窕淑女，钟鼓乐之。
   #   level: beginner, intermediate, advanced, master
   skills:
-    - title: Skill Group 1
+    - title: 主修课程
+      level: master
+      items: [计算机组成原理, 操作系统, 计算机网络, 数据结构与算法, 编译原理, ···]
+    - title: 主要技能
       level: advanced
-      items: [Lorem, Ipsum, Dolor, Sit, Amet]
-    - title: Skill Group 2
+      items: [Java, Spring, Spring Cloud, Mybatis, Mysql, ···]
+    - title: 其他
       level: intermediate
-      items: [Consectetur, Adipiscing, Elit]
-    - title: Skill Group 3
-      level: beginner
-      items: [Sed do, Eiusmod, Tempor, Incididunt]
-  experience:
-    - position: Job Title 1
-      duration: Apr 2016 - Now
-      company: Your 1st, Inc.
-      website: website.com
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-      hilights: [
-        Optimized an algorithm that holds the current world record for Weisman Scores,
-        Hilight 2,
-        Hilight 3,
-      ]
-    - position: Job Title 2
-      duration: Apr 2013 - Mar 2016
-      company: Your 2nd, Inc.
-      website: website.com
-      description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      hilights: [
-        Hilight 1,
-        Optimized an algorithm that holds the current world record for Weisman Scores
-      ]
-    - position: Job Title 3
-      duration: Dec 2011 - Mar 2012
-      company: Your 3rd Co, Ltd.
-      website: website.com
-      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-  
+      items: [Linux, 深度学习, IOS开发, Android开发, 爬虫, ···]
+      
+  # experience:
+  #   - position: 
+  #     duration: Apr 2016 - Now
+  #     company: Your 1st, Inc.
+  #     website: website.com
+  #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+  #     hilights: [
+  #       Optimized an algorithm that holds the current world record for Weisman Scores,
+  #       Hilight 2,
+  #       Hilight 3,
+  #     ]
+
       # Education
   education:
-    - institution: Your First University
-      course: Masters Information Technology
-      duration: Jul 2011 - Dec 2012
-      location: Consectetur adipiscing elit
+    - institution: 家伦敦大学
+      course: 软件工程 · 本科
+      duration: 2018.08 - 至今
+      location: xx省 xx市 xx区 xx路 xx号
+      location_url: 'https://baidu.com/'
       major: Lorem ipsum dolor sit amet
-    - institution: Your Second University
-      course: Masters Information Technology
-      duration: Aug 2007 - Jun 2011
-      location: Ut enim ad minim veniam
-      major: Quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat
+
 # Showcase your work
   projects:
-  - title: Project Name 1
-    description: Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    duration: Jul 2011 - Dec 2012
-    contribution: Contributor.
-  - title: Project Name 2
-    description: Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-    duration: Aug 2007 - Jun 2011
-    contribution: Creator and maintainer.
+
+  - title: 你的项目
+    description: 你的项目简介
+    duration: 2020.08 - 2021.06
+    contribution: Maintainer
+    hilights: [
+      负责整个项目的xxx；,
+    ]
+
+  rewards:
+    scholarship:
+      - title: 家里蹲大学 · 三好学生（ 2020 ）
+        description: 家里蹲大学
+        date: 2020 & 2021
+
+    competition:
+      - title: xxx大赛 · x奖 （ 2021.08 ）
+        description: 
+        date: 2021 年 08 月
+
 # Langguages Known 
 # proficiency: beginner, intermediate, advanced, master, fluent, native speaker
   languages:
-  - name: English
+  - name: 英语 CET - 4
+    proficiency: master
+  - name: 英语 CET - 6
     proficiency: fluent
-  - name: Hindi
-    proficiency: native speaker

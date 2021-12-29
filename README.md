@@ -1,31 +1,32 @@
-# Vita is a simple and minimal Hexo resume theme
+# Vita 一个简洁的hexo简历主题
+此仓库是在原作的基础之上汉化而成，并修改了部分样式。
 
-[Online Demo](https://harendra1993.github.io/vita/)
+[在线预览](http://resume.tanhuiri.cn)
 
-# Prerequisites:
+## 环境:
  * [NodeJS](https://nodejs.org/) >= 1.x
  * [Hexo](https://hexo.io/) >= 1.x
 
-# Installation
+## 安装
 
-1. Install Hexo
+1. 安装Hexo
 
     ```shell
     yarn global add hexo-cli
     ```
 
-2. Init Hexo
+2. 初始化一个Hexo目录
 
     ```shell
     hexo new your-resume
     ```
 
-3. Use Theme
+3. 使用主题
 
     ```
     # Clone the repo in a different folder
     # e.g. /path/to/resume
-    git clone https://github.com/harendra1993/vita.git
+    git clone https://github.com/thomas10011/vita.git
 
     # Copy theme files
     cp -r /path/to/vita /path/to/your-resume/themes/vita
@@ -33,15 +34,15 @@
     # Then, change theme in `_config.yml`
     ```
 
-4. Config your resume data
+4. 在配置文件中选择vita
 
-    Set theme:
+    并按照如下设置:
 
     ```yaml
     theme: vita
     ```
 
-    The `baseurl` is required in `_config.yml` if you serve this page as part of your website. And your contact information, __EDUCATION__, __SKILLS__, __EXPERIENCE__, and __PROJECTS__ data under `resume`.
+    如果你将此页面设置为你的网站的一部分，请在`_config.yml`中设置`baseurl`的值。在配置文件中的`resume`标签下设置你的 __EDUCATION__, __SKILLS__, __EXPERIENCE__, 和 __PROJECTS__ 等信息。
 
 5. Run and Debug
 
@@ -50,6 +51,6 @@
     ```
 
 
-# License
+## 许可
 
 MIT

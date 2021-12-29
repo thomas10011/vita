@@ -16,7 +16,9 @@
             {% for item in theme.resume.contact %}
             <div ">
                 <span class=" fa {{item.icon}}"></span>
-                <a target="_blank" href="{{item.text}}">{{item.text}}</a>
+                <span class="url">
+                    <a target="_blank" href="{{item.link}}">{{item.text}}</a>
+                </span>
             </div>
             {% endfor %}
         </div>
@@ -45,7 +47,7 @@
 
     <section class="section margin1">
         <header>
-            <h2 class="section-title">Skills</h2>
+            <h2 class="section-title">掌握技能</h2>
         </header>
         <section id="skills">
             {% for item in theme.resume.skills %}
@@ -70,10 +72,42 @@
 
     <section class="section">
         <header>
-            <h2 class="section-title">Work Experience <span
-                    class="item-count">({{theme.resume.experience.length}})</span></h2>
+            <h2 class="section-title">教育经历</span></h2>
         </header>
+        <section id="education">
+            {% for item in theme.resume.education %}
+            <section class="education-item">
+                <header>
+                    <div class="header">
+                        <div class="title">
+                            <embed src="images/whu.svg" width="80" height="35" style="margin-bottom: -.8rem; margin-right: .2rem;"
+                            type="image/svg+xml"
+                            pluginspage="http://www.adobe.com/svg/viewer/install/" />
+                        </div>
+                        <div class="course">
+                            {{item.course}}
+                        </div>
+                        <div class="date" style="margin-top: .7rem">
+                            {{item.duration}}
+                        </div>
+                    </div>
+                </header>
 
+                <div class="item">
+                    <div class="location">
+                        <strong class="fa fa-map-marker"></strong> <span>{{item.location}}</span>
+                    </div>
+                </div>
+            </section>
+            {% endfor %}
+        </section>
+    </section>
+
+    <section class="section" style="display: none;">
+        <header>
+            <h2 class="section-title">工作经历</span></h2>
+        </header>
+        <section id="work">
         {% for item in theme.resume.experience %}
         <section class="work-item">
 
@@ -106,44 +140,12 @@
             </div>
         </section>
         {% endfor %}
-    </section>
-
-    <section class="section">
-        <header>
-            <h2 class="section-title">Education <span class="item-count">(1)</span></h2>
-        </header>
-
-        <section id="education">
-            {% for item in theme.resume.education %}
-            <section class="education-item">
-                <header>
-                    <div class="header">
-                        <div class="course">
-                            {{item.course}}
-                        </div>
-                        <div class="institution">
-                            {{item.institution}}
-                        </div>
-                        <div class="date">
-                            {{item.duration}}
-                        </div>
-                    </div>
-                </header>
-
-                <div class="item">
-                    <div class="location">
-                        <strong class="fa fa-map-marker"></strong> <span>{{item.location}}</span>
-                    </div>
-                </div>
-            </section>
-            {% endfor %}
-
         </section>
     </section>
 
     <section class="section">
         <header>
-            <h2 class="section-title">Projects</h2>
+            <h2 class="section-title">主要项目</h2>
         </header>
         {% for item in theme.resume.projects %}
         <section id="project">
@@ -163,7 +165,6 @@
                             {{item.duration}}
                         </div>
                     </div>
-
                 </header>
 
                 <div class="item">
@@ -172,15 +173,74 @@
                         <p>{{item.description}}</p>
                         <p></p>
                     </div>
+
+                    <ul class="highlights">
+                    {% for hilight in item.hilights %}
+                    <li>
+                        <p>{{hilight}}</p>
+                    </li>
+                    {% endfor %}
+                    </ul>
                 </div>
             </section>
         </section>
         {% endfor %}
     </section>
 
+    <section class="section">
+        
+        <header>
+            <h2 class="section-title">获奖情况</h2>
+        </header>
+        
+        <section>
+            <section class="award-item">
+                <input id="rewards-scholarship" type="checkbox" class="toggle-item" checked="checked">
+                <label for="rewards-scholarship"></label>
+                <header>
+                    <div class="header">
+                        <div class="title">个人荣誉</div>
+                        <div class="awarder">Personal Honor</div>
+                    </div>
+                </header>
+                <div class="item">
+                <ul class="reward-highlight">
+                {% for item in theme.resume.rewards.scholarship %}
+                    <li>
+                    <div>
+                        <p>{{item.title}}</p>
+                    </div>
+                    </li>
+                {% endfor %}
+                </ul>
+                </div>
+            </section>
+            <section class="award-item">
+                <input id="rewards-competition" type="checkbox" class="toggle-item" checked="checked">
+                <label for="rewards-competition"></label>
+                <header>
+                    <div class="header">
+                        <div class="title">竞赛获奖</div>
+                        <div class="awarder">Competition Awards</div>
+                    </div>
+                </header>
+                <div class="item">
+                <ul class="reward-highlight">
+                {% for item in theme.resume.rewards.competition %}
+                    <li>
+                    <p>{{item.title}}</p>
+                    </li>
+                {% endfor %}
+                </ul>
+                </div>
+            </section>
+        </section>
+        
+    </section>
+
     <section class="section margin1">
         <header>
-            <h2 class="section-title">Languages</h2>
+            <h2 class="section-title">语言成绩</h2>
         </header>
         <section id="languages">
             {% for item in theme.resume.languages %}

@@ -132,7 +132,7 @@ section .location {
 }
 
 #header {
-    margin-top: 1rem;
+    margin-bottom: 0rem;
 }
 
 #contact {
@@ -142,6 +142,19 @@ section .location {
 
 #profiles .item {
     padding: 0;
+}
+
+.main {
+    display: flex;
+}
+
+.left {
+    margin-top: 15px;
+    flex: 4
+}
+
+.right {
+    flex:1
 }
 
 #header>#profiles,
@@ -523,6 +536,18 @@ ul.courses li:hover {
     display: none;
 }
 
+.avatar { 
+    margin-top: 0rem;
+    border-radius: 50%;
+    display: flex;
+    float: right;
+    border-radius: 0px;
+    width: 100px;
+    height: 100px; 
+    background: url("images/avatar.JPG") no-repeat top center;
+    background-size: 90px;
+}
+
 /******************
 *	HELPER CLASSES
 ******************/
@@ -552,6 +577,10 @@ ul.courses li:hover {
     #resume {
         width: 80%;
         margin: 0 auto;
+    }
+
+    .left {
+        margin-top: 30px;
     }
 }
 
@@ -654,6 +683,10 @@ ul.courses li:hover {
     .display:not(.none) {
         display: block;
         width: 18rem;
+    }
+
+    .left {
+        margin-top: 30px;
     }
 }
 

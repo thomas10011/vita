@@ -1,41 +1,44 @@
 <div id="resume">
-    <header id="header" class="clear">
-        <div>
-            <h1 class="name">{{ theme.resume.name }}</h1>
-            <h2 class="label">{{ theme.resume.jobtitle }}</h2>
-        </div>
-
-        <span class="location">
-            {% for item in theme.resume.location %}
-            <span class="{{ item.key }}">{{ item.value }},</span>
-            {% endfor %}
-        </span>
-
-
-        <div id="contact">
-            {% for item in theme.resume.contact %}
-            <div ">
-                <span class=" fa {{item.icon}}"></span>
-                <span class="url">
-                    <a target="_blank" href="{{item.link}}">{{item.text}}</a>
-                </span>
+    <div class="main">
+        <header id="header" class="clear left">
+            <div>
+                <h1 class="name">{{ theme.resume.name }}</h1>
+                <h2 class="label">{{ theme.resume.jobtitle }}</h2>  
             </div>
-            {% endfor %}
-        </div>
 
-        <div id="profiles">
-            {% for item in theme.resume.profiles %}
-            <div class="item">
-                <div class="username">
-                    <span class="fa {{item.icon}} social"></span>
+            <span class="location">
+                {% for item in theme.resume.location %}
+                <span class="{{ item.key }}">{{ item.value }},</span>
+                {% endfor %}
+            </span>
+
+
+            <div id="contact">
+                {% for item in theme.resume.contact %}
+                <div ">
+                    <span class=" fa {{item.icon}}"></span>
                     <span class="url">
                         <a target="_blank" href="{{item.link}}">{{item.text}}</a>
                     </span>
                 </div>
+                {% endfor %}
             </div>
-            {% endfor %}
-        </div>
-    </header>
+
+            <div id="profiles">
+                {% for item in theme.resume.profiles %}
+                <div class="item">
+                    <div class="username">
+                        <span class="fa {{item.icon}} social"></span>
+                        <span class="url">
+                            <a target="_blank" href="{{item.link}}">{{item.text}}</a>
+                        </span>
+                    </div>
+                </div>
+                {% endfor %}
+            </div>
+        </header>
+        <div class="avatar" class="right"></div>
+    </div>
 
     <section class="section main-summary">
         <section>

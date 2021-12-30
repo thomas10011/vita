@@ -544,7 +544,7 @@ ul.courses li:hover {
     border-radius: 0px;
     width: 100px;
     height: 100px; 
-    background: url("images/avatar.JPG") no-repeat top center;
+    background: url("images/avatar.jpg") no-repeat top center;
     background-size: 90px;
 }
 
@@ -710,7 +710,12 @@ ul.courses li:hover {
     @page {
 
     }
+
     .section>section {
         margin-left: 1.67rem;
+    }
+
+    .left {
+        margin-top: 30px;
     }
 }

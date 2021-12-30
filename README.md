@@ -44,7 +44,11 @@
 
     如果你将此页面设置为你的网站的一部分，请在`_config.yml`中设置`baseurl`的值。在配置文件中的`resume`标签下设置你的 __EDUCATION__, __SKILLS__, __EXPERIENCE__, 和 __PROJECTS__ 等信息。
 
-5. Run and Debug
+5. 关于头像的使用
+
+    请准备1: 1的头像，命名为avatar.jpg，存放在hexo的source/images目录下。
+
+6. Run and Debug
 
     ```shell
     hexo server

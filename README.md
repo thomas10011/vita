@@ -33,6 +33,12 @@
 
     # Then, change theme in `_config.yml`
     ```
+    
+    另外，请确认已经安装了`hexo-renderer-swig`，否则可能会导致无法渲染layout/index.swig。
+    若未安装，可以运行以下命令：
+    ```
+    npm install hexo-renderer-swig --save
+    ```
 
 4. 在配置文件中选择vita
 

@@ -2,6 +2,7 @@ title: Your Resume
 resume:
   name: 你的名字
   jobtitle: 你的岗位
+  avatar: "images/a.JPG"
 
   contact:
     - icon: fa-rss
@@ -81,3 +82,5 @@ resume:
     proficiency: master
   - name: 英语 CET - 6
     proficiency: fluent
+
+  update: '2022/01/08'

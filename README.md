@@ -1,7 +1,7 @@
 # Vita 一个简洁的hexo简历主题
 此仓库是在原作的基础之上汉化而成，并修改了部分样式。
 
-[在线预览](http://resume.arg.pub)
+[在线预览](http://cv.arg.pub)
 
 ## 环境:
  * [NodeJS](https://nodejs.org/) >= 1.x
@@ -32,6 +32,12 @@
     cp -r /path/to/vita /path/to/your-resume/themes/vita
 
     # Then, change theme in `_config.yml`
+    ```
+    
+    另外，请确认已经安装了`hexo-renderer-swig`，否则可能会导致无法渲染layout/index.swig。
+    若未安装，可以运行以下命令：
+    ```
+    npm install hexo-renderer-swig --save
     ```
 
 4. 在配置文件中选择vita

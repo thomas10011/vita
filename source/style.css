@@ -532,6 +532,7 @@ ul.courses li:hover {
     border-left: 5px solid #ff6d1f;
 }
 
+.toggle-item-exp,
 .toggle-item {
     display: none;
 }

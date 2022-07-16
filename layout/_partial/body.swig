@@ -119,7 +119,7 @@
 
             <header>
                 <div class="title">
-                    <embed src="images/rios.svg" width="100" height="35" style="margin-bottom: -.88rem; margin-right: .2rem;"
+                    <embed src="images/rios.svg" width="100" height="30" style="margin-bottom: -.6rem; margin-right: .2rem;"
                         type="image/svg+xml"
                         pluginspage="http://www.adobe.com/svg/viewer/install/" />
                     </div>

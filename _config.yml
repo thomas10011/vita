@@ -32,23 +32,23 @@ resume:
       level: intermediate
       items: [Linux, 深度学习, IOS开发, Android开发, 爬虫, ···]
       
-  # experience:
-  #   - position: 
-  #     duration: Apr 2016 - Now
-  #     company: Your 1st, Inc.
-  #     website: website.com
-  #     description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-  #     hilights: [
-  #       Optimized an algorithm that holds the current world record for Weisman Scores,
-  #       Hilight 2,
-  #       Hilight 3,
-  #     ]
+  experience:
+    - position: 软件工程师
+      duration: 2022.07 - Now
+      company: Your 1st, Inc.
+      website: https://rioslab.org
+      description: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+      hilights: [
+        Optimized an algorithm that holds the current world record for Weisman Scores,
+        Hilight 2,
+        Hilight 3,
+      ]
 
       # Education
   education:
     - institution: 家伦敦大学
       course: 软件工程 · 本科
-      duration: 2018.08 - 至今
+      duration: 2018.09 - 2022.6
       location: xx省 xx市 xx区 xx路 xx号
       location_url: 'https://baidu.com/'
       major: Lorem ipsum dolor sit amet

@@ -106,7 +106,7 @@
         </section>
     </section>
 
-    <section class="section" style="display: none;">
+    <section class="section">
         <header>
             <h2 class="section-title">工作经历</span></h2>
         </header>
@@ -114,17 +114,22 @@
         {% for item in theme.resume.experience %}
         <section class="work-item">
 
-            <input id="work-item-{{ loop.index }}" type="checkbox" class="toggle-item" checked="checked">
+            <input id="work-item-{{ loop.index }}" type="checkbox" class="toggle-item-exp" checked="checked">
             <label for="work-item-{{ loop.index }}"></label>
 
             <header>
+                <div class="title">
+                    <embed src="images/rios.svg" width="80" height="35" style="margin-bottom: -.8rem; margin-right: .2rem;"
+                        type="image/svg+xml"
+                        pluginspage="http://www.adobe.com/svg/viewer/install/" />
+                    </div>
                 <div class="position">{{item.position}}</div>
-                <div class="company">{{item.company}}</div>
-                <div class="date">{{item.duration}}</div>
+                <!-- <div class="company">{{item.company}}</div> -->
+                <div class="date" style="margin-top: .7rem">{{item.duration}}</div>
             </header>
 
-            <span class="website">
-                <a target="_blank" href="{{item.website}}">{{item.website}}</a>
+            <span class="location">
+                <a href={{item.website}} title="访问官网" style="color: grey;" target="_blank" ><strong class="fa fa-code-fork"></strong> <span>rioslab.org</a>
             </span>
             <div class="item" id="work-item">
                 <div class="summary">

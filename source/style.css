@@ -297,7 +297,6 @@ h2.section-title {
     display: inline;
 }
 
-.position,
 .studyType,
 .area,
 .institution,
@@ -313,6 +312,7 @@ h2.section-title {
 
 .label::before,
 .course::before,
+.position::before,
 .contribution::before,
 .company::before,
 .organization::before,
@@ -644,6 +644,42 @@ ul.courses li:hover {
     }
 
     .toggle-item:checked~.item {
+        height: auto;
+        opacity: 1;
+        transition: all .5s linear;
+    }
+
+    .toggle-item-exp {
+        display: inline;
+        transform: translate(-9999px);
+    }
+
+    .toggle-item-exp+label {
+        display: block;
+        margin-top: -1.5rem;
+    }
+
+    .toggle-item-exp:checked+label:after {
+        content: '\f0d7';
+    }
+
+    .toggle-item-exp+label:after {
+        float: left;
+        cursor: pointer;
+        margin-left: -1.5rem;
+        margin-top: .5rem;
+        color: #aaa;
+        font-size: 16px;
+        content: '\f0da';
+        font-family: Fontawesome;
+    }
+
+    .toggle-item-exp~.item {
+        height: 0;
+        opacity: 0;
+    }
+
+    .toggle-item-exp:checked~.item {
         height: auto;
         opacity: 1;
         transition: all .5s linear;

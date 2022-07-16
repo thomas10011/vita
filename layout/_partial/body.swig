@@ -83,14 +83,14 @@
                 <header>
                     <div class="header">
                         <div class="title">
-                            <embed src="images/whu.svg" width="80" height="35" style="margin-bottom: -.8rem; margin-right: .2rem;"
+                            <embed src="images/whu.svg" width="100" height="45" style="margin-bottom: -1.2rem; margin-right: .2rem;"
                             type="image/svg+xml"
                             pluginspage="http://www.adobe.com/svg/viewer/install/" />
                         </div>
                         <div class="course">
                             {{item.course}}
                         </div>
-                        <div class="date" style="margin-top: .7rem">
+                        <div class="date" style="margin-top: .9rem">
                             {{item.duration}}
                         </div>
                     </div>
@@ -119,7 +119,7 @@
 
             <header>
                 <div class="title">
-                    <embed src="images/rios.svg" width="80" height="35" style="margin-bottom: -.8rem; margin-right: .2rem;"
+                    <embed src="images/rios.svg" width="100" height="35" style="margin-bottom: -.88rem; margin-right: .2rem;"
                         type="image/svg+xml"
                         pluginspage="http://www.adobe.com/svg/viewer/install/" />
                     </div>

@@ -763,6 +763,21 @@ ul.courses li:hover {
 
     }
 
+    h2.section-title {
+        display: inline-block;
+        background: #fff;
+        padding: 0 .6rem 0 0;
+        margin-block-start: .2rem;
+        margin-block-end: .2rem;
+        background: linear-gradient(to right, #D93379, #660874);
+        -webkit-background-clip: text;
+        color: transparent;
+        text-transform: uppercase;
+        font-weight: 600;
+        border: none;
+        font-size: 1.2rem;
+    }
+
     .section>section {
         margin-left: 1.67rem;
     }

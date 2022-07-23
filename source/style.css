@@ -230,7 +230,10 @@ h2.section-title {
     padding: 0 .6rem 0 0;
     margin-block-start: .2rem;
     margin-block-end: .2rem;
-    color: #ff6d1f;
+    background: linear-gradient(to left, #D93379, #660874);
+    -webkit-background-clip: text;
+    color: transparent;
+    /* color: #ff6d1f; */
     /* color: #b42fc9; */
     text-transform: uppercase;
     font-weight: 600;
@@ -249,7 +252,7 @@ h2.section-title {
 
 .section>header::after {
     position: absolute;
-    left: 0;
+    left: 5rem;
     top: 1rem;
     height: 1px;
     background: #ccc;

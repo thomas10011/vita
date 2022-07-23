@@ -252,12 +252,12 @@ h2.section-title {
 
 .section>header::after {
     position: absolute;
-    left: 5rem;
+    left: 5.5rem;
     top: 1rem;
     height: 1px;
     background: #ccc;
     content: "";
-    width: 100%;
+    width: 78%;
     z-index: -100;
     display: block;
 }
@@ -614,6 +614,10 @@ ul.courses li:hover {
     .section>section>header .space-left {
         opacity: 1;
         cursor: pointer;
+    }
+
+    .section>header::after {
+        width: 90%;
     }
 
     .section>section {

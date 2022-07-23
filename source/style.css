@@ -230,7 +230,7 @@ h2.section-title {
     padding: 0 .6rem 0 0;
     margin-block-start: .2rem;
     margin-block-end: .2rem;
-    background: linear-gradient(to left, #D93379, #660874);
+    background: linear-gradient(to right, #D93379, #660874);
     -webkit-background-clip: text;
     color: transparent;
     /* color: #ff6d1f; */
@@ -513,20 +513,23 @@ ul.courses li:hover {
 }
 
 .level.intermediate .bar::after {
-    background: #ffdf1f;
+    /*background: #ffdf1f;*/
+    background: linear-gradient(to left, #D93379, #660874);
     /* background: DarkViolet; */
     width: 5em;
 }
 
 .level.advanced .bar::after,
 .level.fluent .bar::after {
-    background: #5CB85C;
+    /*background: #5CB85C;*/
+    background: linear-gradient(to left, #D93379, #660874);
     width: 7.5em;
 }
 
 .level.master .bar::after,
 .level.native.speaker .bar::after {
-    background: #59C596;
+    /*background: #59C596;*/
+    background: linear-gradient(to left, #D93379, #660874);
     width: 10em;
 }
 

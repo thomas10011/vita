@@ -128,9 +128,11 @@
                 <div class="date" style="margin-top: .7rem">{{item.duration}}</div>
             </header>
 
-            <span class="location">
-                <a href={{item.website}} title="访问官网" style="color: grey;" target="_blank" ><strong class="fa fa-code-fork"></strong> <span>rioslab.org</a>
-            </span>
+            <div class="item">
+                <div class="location">
+                    <a href={{item.website}} title="访问官网" style="color: grey;" target="_blank" ><strong class="fa fa-code-fork"></strong> <span>rioslab.org</a>
+                </div>
+            </div>
             <div class="item" id="work-item">
                 <div class="summary">
                     <p></p>

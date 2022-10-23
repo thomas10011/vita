@@ -376,7 +376,7 @@ ul.courses li:hover {
 }
 
 .location {
-    padding-bottom: .5em;
+    padding-bottom: .0em;
 }
 
 .fa.social {
@@ -478,10 +478,14 @@ ul.courses li:hover {
 
 .award-item,
 .project-item,
-.work-item,
-.education-item {
+.work-item {
     margin-top: .4rem;
     margin-bottom: .4rem;
+}
+
+.education-item {
+    margin-top: .5rem;
+    margin-bottom: .8rem;
 }
 
 /* Skill chart */
